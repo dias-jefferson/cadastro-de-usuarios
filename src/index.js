@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './pages/Home/App';
+import AppRoutes from './routes';
 import GlobalStyles from './styles/globalStyles'
 
 
@@ -8,8 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
     <>
+        <AppRoutes />
         <GlobalStyles />
-        <App />
     </>
 
 );
